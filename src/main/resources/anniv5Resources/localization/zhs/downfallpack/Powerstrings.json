@@ -1,5 +1,5 @@
 {
-  "${ModID}:AwakenDeat生命ower": {
+  "${ModID}:AwakenDeathPower": {
     "NAME": "觉醒",
     "DESCRIPTIONS": [
       "死亡时，复活并回复至 #b",

@@ -42,6 +42,6 @@
   },
   "${ModID}:ForTheHistoryBooks": {
     "NAME": "名垂青史",
-    "DESCRIPTION": "下回合获得 !M! 层 临时力量 和 临时敏捷 ，每次均触发 X 次，且获得 1 层 ${ModID}:雇佣支援 。 NL 消耗 。"
+    "DESCRIPTION": "下回合获得 !M! X层 临时力量 和 临时敏捷 。 NL 获得 1 层 ${ModID}:雇佣支援 。 NL 消耗 。"
   }
 }
