@@ -1,0 +1,51 @@
+{
+  "${ModID}:KeepSummerSafe": {
+    "NAME": "Keep Summer Safe",
+    "DESCRIPTION": "Gain !B! Block. NL If you have a debuff, draw 2 cards."
+  },
+  "${ModID}:MortysMindBlowers": {
+    "NAME": "Morty's Mind Blowers",
+    "DESCRIPTION": "Remove all debuffs. NL Draw !M! card, it costs 0 this turn. NL Gain !${ModID}:m2! ${ModID}:Portal_Sickness. NL Exhaust."
+  },
+  "${ModID}:ShowMeWhatYouGot": {
+    "NAME": "SHOW ME WHAT YOU GOT",
+    "DESCRIPTION": "Deal !D! damage to all enemies 4 times. NL Apply 3 Weak to all enemies. NL Gain 5 ${ModID}:Portal_Sickness."
+  },
+  "${ModID}:BootlegPortalFluid": {
+    "NAME": "Bootleg Portal Fluid",
+    "DESCRIPTION": "At the start of your turn, gain 1 Strength for each distinct debuff you have. NL Gain 1 additional Strength for each debuff with more than 5 stacks."
+  },
+  "${ModID}:ParmeezianDimension": {
+    "NAME": "Parmeezian Dimension",
+    "DESCRIPTION": "Gain !B! Block. NL Transmute 1 card in your hand, reduce its cost to 0 this turn."
+  },
+  "${ModID}:RoyALifeWellLived": {
+    "NAME": "Roy: A Life Well Lived",
+    "DESCRIPTION": "anniv5:transmute all cards in your hand into cards from a random pack in your pool.",
+    "UPGRADE_DESCRIPTION": "anniv5:transmute all cards in your hand into cards from a random pack in your pool. NL Retain."
+  },
+  "${ModID}:PortalGun": {
+    "NAME": "Portal Gun",
+    "DESCRIPTION": "Deal !D! damage. NL If you have ${ModID}:Portal_Sickness, gain a random 0 cost attack into your hand."
+  },
+  "${ModID}:MortysAdventureCard": {
+    "NAME": "Morty's Adventure Card",
+    "DESCRIPTION": "Gain !${ModID}:m2! ${ModID}:Portal_Sickness. NL Choose one: NL Gain !B! Block now. NL Gain !M! Block next turn."
+  },
+  "${ModID}:PickleRick": {
+    "NAME": "Pickle Rick",
+    "DESCRIPTION": "Deal !D! damage. NL Gain !M! ${ModID}:Portal_Sickness"
+  },
+  "${ModID}:WubbaLubbaDubDub": {
+    "NAME": "Wubba Lubba Dub Dub",
+    "DESCRIPTION": "Apply !M! Vulnerable and !M! Weak. NL Gain !${ModID}:m2! ${ModID}:Portal_Sickness. NL Exhaust."
+  },
+  "${ModID}:MortyGainBlockNowCard": {
+    "NAME": "Gain Block Now",
+    "DESCRIPTION": "Gain !B! block now."
+  },
+  "${ModID}:MortyGainBlockLaterCard": {
+    "NAME": "Gain Block Later",
+    "DESCRIPTION": "Gain !B! block next turn."
+  }
+}

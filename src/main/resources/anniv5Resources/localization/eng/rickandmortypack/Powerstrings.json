@@ -1,0 +1,15 @@
+{
+  "${ModID}:PortalSicknessPower": {
+    "NAME": "Portal Sickness",
+    "DESCRIPTIONS": [
+      "Does #b%d damage to you in #b%d turns. NL Additional stacks will add their damage to this.",
+      "Does #b%d damage to you at the end of this turn. NL Additional stacks will add their damage to this."
+    ]
+  },
+  "${ModID}:BootlegPortalFluidPower": {
+    "NAME": "Bootleg Portal Fluid",
+    "DESCRIPTIONS": [
+      "At the start of your turn, gain 1 Strength for each distinct debuff you have. NL Gain 1 additional Strength for each debuff with more than 5 stacks."
+    ]
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "${ModID}:RickAndMortyPack": {
+    "TEXT": [
+      "Rick and Morty",
+      "Short term gain, long term (potential) pain.",
+      "grantw99"
+    ]
+  },
+  "${ModID}:MortysAdventureAction": {
+    "TEXT": [
+      "Choose one:",
+      "Gain %d block now.",
+      "Gain %d block next turn."
+    ]
+  },
+  "${ModID}:RickAndMortyPackHat": {
+    "TEXT": [
+      "*Belch* Do it for grandpa, Morty",
+      "Rick Sanchez"
+    ]
+  }
+}
