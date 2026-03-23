@@ -5,11 +5,11 @@
   },
   "${ModID}:MortysMindBlowers": {
     "NAME": "Morty's Mind Blowers",
-    "DESCRIPTION": "Remove all debuffs. NL Draw !M! card, it costs 0 this turn. NL Gain !${ModID}:m2! ${ModID}:Portal_Sickness. NL Exhaust."
+    "DESCRIPTION": "Remove all your debuffs. NL Draw !M! card, it costs 0 this turn. NL Gain !${ModID}:m2! ${ModID}:Portal_Sickness. NL Exhaust."
   },
   "${ModID}:ShowMeWhatYouGot": {
     "NAME": "SHOW ME WHAT YOU GOT",
-    "DESCRIPTION": "Deal !D! damage to all enemies 4 times. NL Apply 3 Weak to all enemies. NL Gain 5 ${ModID}:Portal_Sickness."
+    "DESCRIPTION": "Deal !D! damage to ALL enemies 4 times. NL Apply 3 Weak to ALL enemies. NL Gain 5 ${ModID}:Portal_Sickness."
   },
   "${ModID}:BootlegPortalFluid": {
     "NAME": "Bootleg Portal Fluid",
@@ -17,24 +17,24 @@
   },
   "${ModID}:ParmeezianDimension": {
     "NAME": "Parmeezian Dimension",
-    "DESCRIPTION": "Gain !B! Block. NL Transmute 1 card in your hand, reduce its cost to 0 this turn."
+    "DESCRIPTION": "Gain !B! Block. NL ${ModID}:Transmute 1 card in your hand, reduce its cost to 0 this turn."
   },
   "${ModID}:RoyALifeWellLived": {
     "NAME": "Roy: A Life Well Lived",
-    "DESCRIPTION": "anniv5:transmute all cards in your hand into cards from a random pack in your pool.",
-    "UPGRADE_DESCRIPTION": "anniv5:transmute all cards in your hand into cards from a random pack in your pool. NL Retain."
+    "DESCRIPTION": "${ModID}:Transmute all cards in your hand into cards from a random pack in your run.",
+    "UPGRADE_DESCRIPTION": "Retain. NL ${ModID}:Transmute all cards in your hand into cards from a random pack in your run."
   },
   "${ModID}:PortalGun": {
     "NAME": "Portal Gun",
-    "DESCRIPTION": "Deal !D! damage. NL If you have ${ModID}:Portal_Sickness, gain a random 0 cost attack into your hand."
+    "DESCRIPTION": "Deal !D! damage. NL If you have ${ModID}:Portal_Sickness, add a random 0 cost attack into your hand."
   },
   "${ModID}:MortysAdventureCard": {
     "NAME": "Morty's Adventure Card",
-    "DESCRIPTION": "Gain !${ModID}:m2! ${ModID}:Portal_Sickness. NL Choose one: NL Gain !B! Block now. NL Gain !M! Block next turn."
+    "DESCRIPTION": "Gain !${ModID}:m2! ${ModID}:Portal_Sickness. NL Choose one: NL Gain !B! Block now, or  gain !M! Block next turn."
   },
   "${ModID}:PickleRick": {
     "NAME": "Pickle Rick",
-    "DESCRIPTION": "Deal !D! damage. NL Gain !M! ${ModID}:Portal_Sickness"
+    "DESCRIPTION": "Deal !D! damage. NL Gain !M! ${ModID}:Portal_Sickness."
   },
   "${ModID}:WubbaLubbaDubDub": {
     "NAME": "Wubba Lubba Dub Dub",
@@ -42,10 +42,10 @@
   },
   "${ModID}:MortyGainBlockNowCard": {
     "NAME": "Gain Block Now",
-    "DESCRIPTION": "Gain !B! block now."
+    "DESCRIPTION": "Gain !B! Block now."
   },
   "${ModID}:MortyGainBlockLaterCard": {
     "NAME": "Gain Block Later",
-    "DESCRIPTION": "Gain !B! block next turn."
+    "DESCRIPTION": "Gain !B! Block next turn."
   }
 }

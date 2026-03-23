@@ -9,7 +9,7 @@
   "${ModID}:BootlegPortalFluidPower": {
     "NAME": "Bootleg Portal Fluid",
     "DESCRIPTIONS": [
-      "At the start of your turn, gain 1 Strength for each distinct debuff you have. NL Gain 1 additional Strength for each debuff with more than 5 stacks."
+      "At the start of your turn, gain #b1 Strength for each distinct debuff you have. NL Gain #b1 additional Strength for each debuff with more than #b5 stacks."
     ]
   }
 }
