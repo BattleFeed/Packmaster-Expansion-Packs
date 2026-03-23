@@ -1,11 +1,14 @@
 package thePackmaster.cards.rickandmortypack;
 
+import com.megacrit.cardcrawl.actions.AbstractGameAction;
+import com.megacrit.cardcrawl.actions.common.DrawCardAction;
 import com.megacrit.cardcrawl.actions.common.RemoveSpecificPowerAction;
+import com.megacrit.cardcrawl.actions.unique.RemoveDebuffsAction;
 import com.megacrit.cardcrawl.cards.AbstractCard;
 import com.megacrit.cardcrawl.characters.AbstractPlayer;
 import com.megacrit.cardcrawl.monsters.AbstractMonster;
 import thePackmaster.actions.pixiepack.DrawSpecificCardAction;
-import thePackmaster.actions.rickandmorty.AddPortalSicknessAction;
+import thePackmaster.powers.rickandmortypack.PortalSicknessPower;
 import thePackmaster.util.Wiz;
 import thePackmaster.util.rickandmortypack.PlayerDebuffUtil;
 
@@ -23,15 +26,19 @@ public class MortysMindBlowers extends AbstractRickAndMortyCard {
 
     @Override
     public void use(AbstractPlayer abstractPlayer, AbstractMonster abstractMonster) {
-        abstractPlayer.powers.stream()
-                .filter(PlayerDebuffUtil.POWER_IS_DEBUFF_PREDICATE)
-                .forEach(power -> Wiz.atb(new RemoveSpecificPowerAction(abstractPlayer, abstractPlayer, power)));
-        for (int i = 0; i < this.magicNumber; i++) {
-            AbstractCard nextCard = Wiz.p().drawPile.getTopCard();
-            nextCard.setCostForTurn(0);
-            Wiz.atb(new DrawSpecificCardAction(nextCard));
-        }
-        Wiz.atb(new AddPortalSicknessAction(this.secondMagic));
+        Wiz.atb(new RemoveDebuffsAction(abstractPlayer));
+        Wiz.atb(new DrawCardAction(this.magicNumber, new AbstractGameAction() {
+            @Override
+            public void update() {
+                for (AbstractCard c : DrawCardAction.drawnCards) {
+                    c.setCostForTurn(0);
+                    c.isCostModifiedForTurn = true;
+                    c.superFlash();
+                }
+                this.isDone = true;
+            }
+        }));
+        Wiz.applyToSelf(new PortalSicknessPower(this.secondMagic));
     }
 
     @Override

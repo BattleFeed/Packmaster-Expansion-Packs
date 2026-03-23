@@ -15,7 +15,7 @@ public class RickAndMortyPack extends AbstractCardPack {
     public static final String AUTHOR = UI_STRINGS.TEXT[2];
 
     public RickAndMortyPack() {
-        super(ID, NAME, DESC, AUTHOR, new PackSummary(3, 2, 4, 4, 3));
+        super(ID, NAME, DESC, AUTHOR, new PackSummary(3, 2, 3, 4, 3));
         hatHidesHair = true;
     }
 

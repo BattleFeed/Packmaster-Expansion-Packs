@@ -27,7 +27,7 @@ public class KeepSummerSafe extends AbstractRickAndMortyCard {
 
     @Override
     public void upp() {
-        this.upgradeBlock(6);
+        this.upgradeBlock(4);
     }
 
     @Override

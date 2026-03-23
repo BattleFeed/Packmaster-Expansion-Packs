@@ -1,11 +1,13 @@
 package thePackmaster.cards.rickandmortypack;
 
+import basemod.AutoAdd;
 import com.megacrit.cardcrawl.characters.AbstractPlayer;
 import com.megacrit.cardcrawl.monsters.AbstractMonster;
 import thePackmaster.util.Wiz;
 
 import static thePackmaster.SpireAnniversary5Mod.makeID;
 
+@AutoAdd.Ignore
 public class MortyGainBlockNowCard extends AbstractRickAndMortyCard {
     public static final String ID = makeID(MortyGainBlockNowCard.class.getSimpleName());
 

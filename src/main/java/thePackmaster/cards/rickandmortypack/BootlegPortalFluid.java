@@ -22,7 +22,6 @@ public class BootlegPortalFluid extends AbstractRickAndMortyCard {
     @Override
     public void upp() {
         upgradeBaseCost(1);
-        this.upgraded = true;
     }
 
     @Override

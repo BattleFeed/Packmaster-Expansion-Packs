@@ -23,7 +23,7 @@ public class ParmeezianDimension extends AbstractRickAndMortyCard {
 
     @Override
     public void upp() {
-        this.upgradeBlock(4);
+        this.upgradeBlock(3);
     }
 
 

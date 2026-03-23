@@ -1,12 +1,10 @@
 package thePackmaster.cards.rickandmortypack;
 
 import com.megacrit.cardcrawl.cards.AbstractCard;
-import com.megacrit.cardcrawl.cards.DescriptionLine;
 import com.megacrit.cardcrawl.characters.AbstractPlayer;
 import com.megacrit.cardcrawl.monsters.AbstractMonster;
 import thePackmaster.SpireAnniversary5Mod;
 import thePackmaster.actions.transmutationpack.TransmuteCardAction;
-import thePackmaster.cards.AbstractPackmasterCard;
 import thePackmaster.packs.AbstractCardPack;
 import thePackmaster.util.Wiz;
 
@@ -31,7 +29,6 @@ public class RoyALifeWellLived extends AbstractRickAndMortyCard {
     @Override
     public void upp() {
         this.selfRetain = true;
-        this.upgrade();
     }
 
     @Override

@@ -1,6 +1,6 @@
 package thePackmaster.cards.rickandmortypack;
 
-import com.megacrit.cardcrawl.actions.common.ApplyPowerAction;
+import basemod.AutoAdd;
 import com.megacrit.cardcrawl.characters.AbstractPlayer;
 import com.megacrit.cardcrawl.monsters.AbstractMonster;
 import com.megacrit.cardcrawl.powers.NextTurnBlockPower;
@@ -8,6 +8,7 @@ import thePackmaster.util.Wiz;
 
 import static thePackmaster.SpireAnniversary5Mod.makeID;
 
+@AutoAdd.Ignore
 public class MortyGainBlockLaterCard extends AbstractRickAndMortyCard {
     public static final String ID = makeID(MortyGainBlockLaterCard.class.getSimpleName());
 

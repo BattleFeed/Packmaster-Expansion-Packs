@@ -26,15 +26,10 @@ public class BootlegPortalFluidPower extends AbstractPackmasterPower {
 
     @Override
     public void atStartOfTurn() {
-        final AtomicInteger strengthToGive = new AtomicInteger(0);
-        Wiz.p().powers.stream()
+        int strengthToGive = Wiz.p().powers.stream()
                 .filter(PlayerDebuffUtil.POWER_IS_DEBUFF_PREDICATE)
-                .forEach(power -> {
-                    strengthToGive.getAndIncrement();
-                    if (power.amount > 5) {
-                        strengthToGive.getAndIncrement();
-                    }
-                });
-        Wiz.atb(new ApplyPowerAction(Wiz.p(), Wiz.p(), new StrengthPower(Wiz.p(), strengthToGive.get())));
+                .mapToInt(power -> 1 + (power.amount > 5 ? 1 : 0))
+                .sum();
+        Wiz.atb(new ApplyPowerAction(Wiz.p(), Wiz.p(), new StrengthPower(Wiz.p(), strengthToGive)));
     }
 }

@@ -4,8 +4,7 @@ import com.megacrit.cardcrawl.actions.watcher.ChooseOneAction;
 import com.megacrit.cardcrawl.cards.AbstractCard;
 import com.megacrit.cardcrawl.characters.AbstractPlayer;
 import com.megacrit.cardcrawl.monsters.AbstractMonster;
-import thePackmaster.SpireAnniversary5Mod;
-import thePackmaster.actions.rickandmorty.AddPortalSicknessAction;
+import thePackmaster.powers.rickandmortypack.PortalSicknessPower;
 import thePackmaster.util.Wiz;
 
 import java.util.ArrayList;
@@ -24,7 +23,7 @@ public class MortysAdventureCard extends AbstractRickAndMortyCard {
 
     @Override
     public void use(AbstractPlayer abstractPlayer, AbstractMonster abstractMonster) {
-        Wiz.atb(new AddPortalSicknessAction(secondMagic));
+        Wiz.applyToSelf(new PortalSicknessPower(this.secondMagic));
         ArrayList<AbstractCard> choices = new ArrayList<>();
         MortyGainBlockNowCard gainBlockNowCard = new MortyGainBlockNowCard(this.upgraded);
         gainBlockNowCard.applyPowers();

@@ -5,7 +5,7 @@ import com.megacrit.cardcrawl.actions.AbstractGameAction;
 import com.megacrit.cardcrawl.characters.AbstractPlayer;
 import com.megacrit.cardcrawl.monsters.AbstractMonster;
 import com.megacrit.cardcrawl.powers.WeakPower;
-import thePackmaster.actions.rickandmorty.AddPortalSicknessAction;
+import thePackmaster.powers.rickandmortypack.PortalSicknessPower;
 import thePackmaster.util.Wiz;
 
 import static thePackmaster.SpireAnniversary5Mod.makeID;
@@ -24,7 +24,7 @@ public class ShowMeWhatYouGot extends AbstractRickAndMortyCard {
             Wiz.doAllDmg(this, AbstractGameAction.AttackEffect.BLUNT_HEAVY, false);
         }
         Wiz.atb(new AllEnemyApplyPowerAction(abstractPlayer, 3, (q) -> new WeakPower(q, 3, false)));
-        Wiz.atb(new AddPortalSicknessAction(5));
+        Wiz.applyToSelf(new PortalSicknessPower(5));
     }
 
     @Override

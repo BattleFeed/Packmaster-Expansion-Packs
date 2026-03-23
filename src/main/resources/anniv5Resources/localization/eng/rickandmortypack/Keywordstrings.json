@@ -8,15 +8,5 @@
       "portal_sickness"
     ],
     "DESCRIPTION": "Does damage to you in a number of turns. NL Additional stacks will add their damage to the same instance."
-  },
-  {
-    "PROPER_NAME": "Bootleg Portal Fluid",
-    "NAMES": [
-      "Bootleg Portal Fluid",
-      "bootleg portal fluid",
-      "Bootleg_Portal_Fluid",
-      "bootleg_portal_fluid"
-    ],
-    "DESCRIPTION": "At the start of your turn, gain 1 Strength for each distinct debuff you have. NL Gain 1 additional Strength for each debuff with more than 5 stacks."
   }
 ]
