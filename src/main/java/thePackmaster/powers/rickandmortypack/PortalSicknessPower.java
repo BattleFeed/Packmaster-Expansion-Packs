@@ -42,9 +42,4 @@ public class PortalSicknessPower extends AbstractPackmasterPower {
                 String.format(THIS_TURN_DESCRIPTION_TEMPLATE, this.amount) :
                 String.format(FUTURE_TURN_DESCRIPTION_TEMPLATE, this.amount, this.amount2);
     }
-
-    public void increasePortalSicknessAmount(int amount) {
-        this.amount += amount;
-        this.updateDescription();
-    }
 }

@@ -26,11 +26,11 @@
   },
   "${ModID}:PortalGun": {
     "NAME": "Portal Gun",
-    "DESCRIPTION": "Deal !D! damage. NL If you have ${ModID}:Portal_Sickness, add a random 0 cost attack into your hand."
+    "DESCRIPTION": "Deal !D! damage. NL If you have ${ModID}:Portal_Sickness, add a random 0 cost Attack into your hand."
   },
   "${ModID}:MortysAdventureCard": {
     "NAME": "Morty's Adventure Card",
-    "DESCRIPTION": "Gain !${ModID}:m2! ${ModID}:Portal_Sickness. NL Choose one: NL Gain !B! Block now, or  gain !M! Block next turn."
+    "DESCRIPTION": "Gain !${ModID}:m2! ${ModID}:Portal_Sickness. NL Choose one: NL Gain !B! Block now, or gain !M! Block next turn."
   },
   "${ModID}:PickleRick": {
     "NAME": "Pickle Rick",
