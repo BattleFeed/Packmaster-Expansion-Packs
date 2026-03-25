@@ -1,0 +1,12 @@
+[
+  {
+    "PROPER_NAME": "Portal Sickness",
+    "NAMES": [
+      "Portal Sickness",
+      "portal sickness",
+      "Portal_Sickness",
+      "portal_sickness"
+    ],
+    "DESCRIPTION": "Does damage to you in a number of turns. NL Additional stacks will add their damage to the same instance."
+  }
+]
