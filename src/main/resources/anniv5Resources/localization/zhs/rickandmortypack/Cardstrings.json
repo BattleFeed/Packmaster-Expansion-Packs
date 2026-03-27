@@ -1,0 +1,51 @@
+{
+  "${ModID}:KeepSummerSafe": {
+    "NAME": "保证Summer安全！",
+    "DESCRIPTION": "获得 !B! 点格挡。 NL 如果你有减益，抽 2 张牌。"
+  },
+  "${ModID}:MortysMindBlowers": {
+    "NAME": "莫蒂的思维炸弹",
+    "DESCRIPTION": "移除你的所有减益。 NL 抽 !M! 张牌，此牌本回合费用为 0 。 NL 获得 !${ModID}:m2! 层 ${ModID}:传送门病 。 NL 消耗 。"
+  },
+  "${ModID}:ShowMeWhatYouGot": {
+    "NAME": "让我看看你的本事",
+    "DESCRIPTION": "造成 !D! 点群体伤害 4 次。 NL 对所有敌人施加 3 层 虚弱 。 NL 获得 5 层 ${ModID}:传送门病 。"
+  },
+  "${ModID}:BootlegPortalFluid": {
+    "NAME": "盗版传送门液体",
+    "DESCRIPTION": "在你的回合开始时，每有1种减益，获得 1 层 力量 。 NL 每有1种减益超过 5 层，额外获得 1 层 力量 。"
+  },
+  "${ModID}:ParmeezianDimension": {
+    "NAME": "帕米西亚维度",
+    "DESCRIPTION": "获得 !B! 点格挡。 NL ${ModID}:增变化 你手牌中的 1 张牌，本回合将其费用降为 0 。"
+  },
+  "${ModID}:RoyALifeWellLived": {
+    "NAME": "罗伊：美好的一生",
+    "DESCRIPTION": "${ModID}:增变化 你手牌中的所有牌为本局随机卡包中的牌。",
+    "UPGRADE_DESCRIPTION": "保留 。 NL ${ModID}:增变化 你手牌中的所有牌为本局随机卡包中的牌。"
+  },
+  "${ModID}:PortalGun": {
+    "NAME": "传送枪",
+    "DESCRIPTION": "造成 !D! 点伤害。 NL 如果你有 ${ModID}:传送门病 ，将一张随机 0 费攻击牌加入手牌。"
+  },
+  "${ModID}:MortysAdventureCard": {
+    "NAME": "莫蒂的冒险卡",
+    "DESCRIPTION": "获得 !${ModID}:m2! 层 ${ModID}:传送门病 。 NL 选择一项： NL 立即获得 !B! 点格挡，或下回合获得 !M! 点格挡。"
+  },
+  "${ModID}:PickleRick": {
+    "NAME": "腌黄瓜瑞克",
+    "DESCRIPTION": "造成 !D! 点伤害。 NL 获得 !M! 层 ${ModID}:传送门病 。"
+  },
+  "${ModID}:WubbaLubbaDubDub": {
+    "NAME": "Wubba Lubba Dub Dub",
+    "DESCRIPTION": "施加 !M! 层 易伤 和 !M! 层 虚弱 。 NL 获得 !${ModID}:m2! 层 ${ModID}:传送门病 。 NL 消耗 。"
+  },
+  "${ModID}:MortyGainBlockNowCard": {
+    "NAME": "立即获得格挡",
+    "DESCRIPTION": "立即获得 !B! 点格挡。"
+  },
+  "${ModID}:MortyGainBlockLaterCard": {
+    "NAME": "稍后获得格挡",
+    "DESCRIPTION": "下回合获得 !B! 点格挡。"
+  }
+}

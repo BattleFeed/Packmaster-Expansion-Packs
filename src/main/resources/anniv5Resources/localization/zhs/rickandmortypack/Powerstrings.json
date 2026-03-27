@@ -1,0 +1,15 @@
+{
+  "${ModID}:PortalSicknessPower": {
+    "NAME": "传送门病",
+    "DESCRIPTIONS": [
+      "在 #b%d 回合后对你造成 #b%d 点伤害。 NL 额外层数会将伤害增加对应数值。",
+      "在本回合结束时对你造成 #b%d 点伤害。 NL 额外层数会将伤害增加对应数值。"
+    ]
+  },
+  "${ModID}:BootlegPortalFluidPower": {
+    "NAME": "盗版传送门液体",
+    "DESCRIPTIONS": [
+      "在你的回合开始时，每有1种不同的减益获得 #b1 层 力量 。 NL 每有1种减益超过 #b5 层额外获得 #b1 层 力量 。"
+    ]
+  }
+}

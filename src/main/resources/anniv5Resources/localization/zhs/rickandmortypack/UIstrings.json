@@ -1,0 +1,22 @@
+{
+  "${ModID}:RickAndMortyPack": {
+    "TEXT": [
+      "瑞克和莫蒂",
+      "短期收益，长期（潜在）痛苦。",
+      "grantw99"
+    ]
+  },
+  "${ModID}:MortysAdventureAction": {
+    "TEXT": [
+      "选择一项：",
+      "立即获得 %d 点格挡。",
+      "下回合获得 %d 点格挡。"
+    ]
+  },
+  "${ModID}:RickAndMortyPackHat": {
+    "TEXT": [
+      "*打嗝* 为了爷爷，干吧，莫蒂",
+      "瑞克·桑切斯"
+    ]
+  }
+}
